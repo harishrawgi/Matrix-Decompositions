@@ -1,0 +1,25 @@
+--------------------------------------------------Matrix Decompositions----------------------------------------------------------------------------
+
+Developed by: Hari Shrawgi
+
+Language: MATLAB
+
+--------------------------------------------------Matrix Decompositions----------------------------------------------------------------------------
+
+The various scripts implement different decompositions of matrices like LU and QR.
+Also, there is an application of finding out the determinant and inverse of a square matrix using LU with partial pivoting.
+
+There are two scripts which also convert a matrix given in one decomposition to other.
+
+Following are descriptions of the various scripts:
+
+1. gs.m: Finds QR decomposition using Gram-Schmidt method.
+2. mgs.m: Finds QR decomposition using modified Gram-Schmidt method.
+3. LUpartial.m: Performs LU decomposition using partial pivoting and also computes the determinant and inverse using it.
+4. lutoqr.m: Finds QR decomposition given LU.
+5. qrtolu.m: Finds LU decomposition given QR.
+5. tridiag.m: Solves a tridiagonal system of equations using LU decomposition.
+
+Rest of the scripts are helper scripts.
+
+-----------------------------------------x-------------------------------------x----------------------------------x----------------------------------
